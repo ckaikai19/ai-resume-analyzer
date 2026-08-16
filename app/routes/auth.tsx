@@ -9,7 +9,7 @@ export const meta = () => ([
 
 const Auth = () => {
     const { isLoading, auth } = usePuterStore();
-    const location = useLocation();
+    const location = eLocation()us;
     const next = location.search.split('next=')[1];
     const navigate = useNavigate();
 
